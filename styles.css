@@ -1,0 +1,76 @@
+html{
+    background: url("background.jpg") no-repeat;
+	background-size: cover;
+    min-height: 100%;
+}
+
+body{
+    background:none;
+}
+
+#form-encrypt{
+    background-color: #fff;
+    max-width: 800px;
+    margin: 160px auto 0;
+    padding: 40px;
+    color: #858b8e;
+    box-shadow: -6px -6px 6px rgba(0,0,0,0.3);
+    border: solid gray 1px;
+}
+
+#form-encrypt h2{
+    padding-bottom: 20px;
+    margin: 10px 20px;
+    font-size: 24px;
+}
+
+#form-encrypt hr{
+    margin-top: 38px;
+    margin-bottom: 54px;
+    margin-left:3px;
+    border: 1px solid #cccccc;
+
+}
+
+#form-encrypt .form-group{
+	margin-bottom: 20px;
+    margin-left:20px;
+	width: 95%;
+    float:left;
+    text-align: left;
+}
+
+#form-encrypt .form-control{
+    padding: 12px 20px;
+    height: auto;
+    border-radius: 2px;
+}
+
+#form-encrypt .btn{
+    width: 40%;
+    margin: auto;
+    margin-left: 45px;
+}
+
+
+
+@media screen and (max-width: 800px){
+    #advanced-search-form .form-group{
+        width: 45%;
+    }
+
+    #form-encrypt-form{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 560px){
+    #form-encrypt .form-group{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #form-encrypt-form h2{
+        text-align: center;
+    }
+}
